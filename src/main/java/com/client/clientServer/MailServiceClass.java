@@ -20,10 +20,10 @@ public class MailServiceClass {
 
     public void verifyCode() {
         SimpleMailMessage message = new SimpleMailMessage();
-        message.setFrom("shankarsmtpexample@gmail.com");
-        message.setTo("shankarsmtpexample@gmail.com");
+        message.setFrom("shankar.krishna@coherent.in");
+        message.setTo("shankar.krishna@coherent.in");
 //        message.setCc("shankarkj439@gmail.com");
-        message.setBcc("shankarkj439@gmail.com");
+        message.setBcc("shankar.krishna@coherent.in");
 //        message.setSentDate(31.11.2021);
         message.setSubject("Verification mail");
         message.setText("Hai this is me SHANKAR, this message is from spring boot application");
